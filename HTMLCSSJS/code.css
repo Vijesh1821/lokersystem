@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(lock.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height:70px;
+}
+.logo{
+    color: darkcyan;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height:70px;
+}
+ul{
+    
+    float:right;
+    display:flex;
+    justify-content: center;
+    padding-left: 20px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right:93px;
+    margin-top:70px;
+    font-size:14px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:turquoise
+}
+.md-form.mt-0{
+  display:inline-flex;
+  width:500px;
+}
+
+.material-icons.mdc-button__icon{
+  position:absolute;
+  top:7px;
+  left: 2px;
+ 
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;;
+}
+.srch{
+    font-family: 'Times New Roman';
+    height:20px;
+    margin-top: 20px;
+    border: 1px solid darkcyan;
+    margin-top: 13px;
+}
